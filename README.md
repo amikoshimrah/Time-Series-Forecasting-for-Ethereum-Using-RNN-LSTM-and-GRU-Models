@@ -4,7 +4,7 @@ Cryptocurrency prices move fast and often behave unpredictably, which makes fore
 
 📘 Project Summary
 
-This project looks at how well different Recurrent Neural Network models can forecast Ethereum’s price movements. It focuses on SimpleRNN, LSTM and GRU and examines how each model deals with the volatility and long-term patterns found in crypto markets.
+This project looks at how well different Recurrent Neural Network models can forecast Ethereum’s price movements. It focuses on SimpleRNN, LSTM and GRU and examines how each model deals with the volatility and long-term patterns found in crypto markets. 
 
 The notebook takes you through the complete process: downloading the data, exploring price trends, preparing the data for supervised learning, training the models and comparing their performance. Along the way, it shows how these networks learn from past price behavior and where each model performs best or struggles.
 
@@ -21,6 +21,9 @@ Train RNN, LSTM and GRU models
 Measure performance using RMSE and MAE
 
 Plot actual vs predicted prices for comparison
+
+Although the main models in this project focus on RNN, LSTM and GRU, time series forecasting can be improved further using an Encoder–Decoder structure with an Attention mechanism. This approach is common in sequence-to-sequence tasks and is now widely used in advanced forecasting models.
+
 
 🧩 Workflow Summary
 1. Data Collection
